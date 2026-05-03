@@ -1,0 +1,1335 @@
+{
+    "chunks": [
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 0.0,
+            "end": 3.0,
+            "text": " Next we will talk about pairs in an array"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 3.0,
+            "end": 5.0,
+            "text": " So the name of this question is pairs in an array"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 5.0,
+            "end": 10.700000000000001,
+            "text": " That means we have to find all possible pairs of all the elements stored in our array"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 10.700000000000001,
+            "end": 14.9,
+            "text": " Pairs means when two people are joined together, we call it pair"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 14.9,
+            "end": 19.900000000000002,
+            "text": " So if we join any number with any number, then it will be a pair"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 19.900000000000002,
+            "end": 21.900000000000002,
+            "text": " So we have to find all possible pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 21.900000000000002,
+            "end": 24.6,
+            "text": " Let's see how to find all possible pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 24.6,
+            "end": 29.400000000000002,
+            "text": " Now the logical way is this, first of all we will discuss the logical way"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 29.4,
+            "end": 32.4,
+            "text": " First of all, let's find all possible pairs of 2"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 32.4,
+            "end": 35.699999999999996,
+            "text": " 2 should not pair with 2, it should pair up with other numbers"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 35.699999999999996,
+            "end": 40.0,
+            "text": " So if we pair 2 with 4, then it becomes a pair of 2 and 4"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 40.0,
+            "end": 42.8,
+            "text": " If we pair 2 with 6, then it becomes a pair of 2 and 6"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 42.8,
+            "end": 45.4,
+            "text": " If we pair 2 with 8, then it becomes a pair of 2 and 8"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 45.4,
+            "end": 49.2,
+            "text": " And if we pair 2 with 10, then it becomes a pair of 2 and 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 49.2,
+            "end": 51.9,
+            "text": " So these are our 4 pairs here"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 51.9,
+            "end": 54.7,
+            "text": " After that, let's find all possible pairs of 4"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 54.7,
+            "end": 58.3,
+            "text": " In pairs of 4, first of all, its pair is already formed with 2"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 58.3,
+            "end": 60.3,
+            "text": " That is 2, 4 and 4, 2"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 60.3,
+            "end": 62.3,
+            "text": " These two are same"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 62.3,
+            "end": 67.1,
+            "text": " Whether you pair 2 with 4 or 4 with 2, it is same"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 67.1,
+            "end": 69.1,
+            "text": " We don't have to differentiate in this"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 69.1,
+            "end": 73.1,
+            "text": " So 4 pairs are already formed with 2, that is, it is formed with the left pair"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 73.1,
+            "end": 75.7,
+            "text": " On the right, 4 pairs are formed with 6"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 75.7,
+            "end": 77.7,
+            "text": " 4 pairs are formed with 8"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 77.7,
+            "end": 80.3,
+            "text": " And 4 pairs are formed with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 80.3,
+            "end": 83.7,
+            "text": " Now if we have to make pairs of 6, then how will 6 pairs be formed?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 83.7,
+            "end": 86.9,
+            "text": " 6 pairs are formed with 2, that is, this and 6 pairs are formed with 4"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 86.9,
+            "end": 88.30000000000001,
+            "text": " That is, this is already formed"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 88.30000000000001,
+            "end": 90.7,
+            "text": " Now if we have to make pairs of 6 with 8, then this is formed"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 90.7,
+            "end": 92.9,
+            "text": " If we have to make pairs of 6 with 10, then this is formed"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 92.9,
+            "end": 96.30000000000001,
+            "text": " In the end, the last pair will be 8"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 96.30000000000001,
+            "end": 100.30000000000001,
+            "text": " 8 pairs were formed with 10, and 8 pairs were formed with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 100.30000000000001,
+            "end": 104.7,
+            "text": " So here 3 pairs were formed, 2 pairs were formed here, and 1 pair was formed here"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 104.7,
+            "end": 107.9,
+            "text": " So how can we make all possible pairs in this way?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 107.9,
+            "end": 111.10000000000001,
+            "text": " The number we are on, let's say we have to make pairs of 2"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 111.10000000000001,
+            "end": 113.30000000000001,
+            "text": " So all the numbers before that,"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 113.5,
+            "end": 118.1,
+            "text": " Do them one by one and get them joined together and print that pair"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 118.1,
+            "end": 122.1,
+            "text": " The concept we will use here is nested loops"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 122.1,
+            "end": 124.7,
+            "text": " Nested loop means loop inside the loop"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 124.7,
+            "end": 125.7,
+            "text": " What is the logic?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 125.7,
+            "end": 128.7,
+            "text": " First of all, we run the loop for all the elements of the array"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 128.7,
+            "end": 130.7,
+            "text": " So the first turn came in the loop of 2"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 130.7,
+            "end": 136.7,
+            "text": " We joined 2 with 4, 2 joined with 6, 2 joined with 8, and 2 joined with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 136.7,
+            "end": 138.7,
+            "text": " Then the turn came in the loop of 4"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 138.7,
+            "end": 140.7,
+            "text": " We ran another loop for 4"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 140.7,
+            "end": 145.29999999999998,
+            "text": " 4 joined with 6, 4 joined with 8, and 4 joined with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 145.29999999999998,
+            "end": 148.1,
+            "text": " Then the turn came again for 6"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 148.1,
+            "end": 152.5,
+            "text": " We joined 6 with 8, and then 6 joined with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 152.5,
+            "end": 155.89999999999998,
+            "text": " So in this way, we will use nested loops inside the loop"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 155.89999999999998,
+            "end": 157.29999999999998,
+            "text": " What will we write in the outer loop?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 157.29999999999998,
+            "end": 159.5,
+            "text": " We will write the elements of the array in the outer loop"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 159.5,
+            "end": 160.7,
+            "text": " How will the code look?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 160.7,
+            "end": 162.1,
+            "text": " The code will look something like this"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 162.1,
+            "end": 167.1,
+            "text": " For int i equals 0 to n"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 167.5,
+            "end": 172.9,
+            "text": " For the current number, we will run another loop"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 172.9,
+            "end": 182.9,
+            "text": " For int j equals current, we will name it i plus 1 to n"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 182.9,
+            "end": 185.9,
+            "text": " And here we will print all the pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 185.9,
+            "end": 188.7,
+            "text": " What is the logic behind this?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 188.7,
+            "end": 190.7,
+            "text": " First of all, the turn will come for 2"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 190.7,
+            "end": 192.1,
+            "text": " For 2, whose turn will come?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 192.1,
+            "end": 194.29999999999998,
+            "text": " 4, 6, 8, 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 194.5,
+            "end": 196.9,
+            "text": " Which index will start after 2?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 196.9,
+            "end": 200.3,
+            "text": " If the index of 2 is i, then which index will start from i plus 1?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 200.3,
+            "end": 202.3,
+            "text": " After that, we will do for 4"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 202.3,
+            "end": 206.3,
+            "text": " For 4, the turn will come for 6, 8, and 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 206.3,
+            "end": 210.10000000000002,
+            "text": " For 6, the turn will come for 8 and 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 210.10000000000002,
+            "end": 212.10000000000002,
+            "text": " Similarly, the turn will come for 8 only"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 212.10000000000002,
+            "end": 214.10000000000002,
+            "text": " And no turn will come for 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 214.10000000000002,
+            "end": 219.9,
+            "text": " Because as soon as 10 comes after 8, i equals n minus 1 for 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 219.9,
+            "end": 223.70000000000002,
+            "text": " So the loop from n to n will not work here"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 223.7,
+            "end": 226.7,
+            "text": " So no pair will be printed with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 226.7,
+            "end": 230.1,
+            "text": " Later, all the pairs of 10 will be printed"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 230.1,
+            "end": 233.7,
+            "text": " So the logic of nested loop will be to print pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 233.7,
+            "end": 236.1,
+            "text": " For this, let's understand it by writing code"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 236.1,
+            "end": 239.1,
+            "text": " First of all, let's write a function to print pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 239.1,
+            "end": 244.1,
+            "text": " If we do all the work in the function, then modularity is formed in the code"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 244.1,
+            "end": 247.1,
+            "text": " If you know that you have to do this work, then see this function"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 247.1,
+            "end": 249.1,
+            "text": " If you want to do this work, then see this function"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 249.1,
+            "end": 250.7,
+            "text": " It feels good to see the code"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 250.7,
+            "end": 253.7,
+            "text": " Let's make it void type and name it printPairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 253.7,
+            "end": 255.7,
+            "text": " It will print pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 255.7,
+            "end": 258.7,
+            "text": " We will get an array named numbers in this"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 258.7,
+            "end": 261.7,
+            "text": " We will pass this array from main function"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 261.7,
+            "end": 264.7,
+            "text": " First of all, we will do a loop"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 264.7,
+            "end": 272.7,
+            "text": " For int i equals 0, i plus plus will not become numbers dot length"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 273.7,
+            "end": 281.7,
+            "text": " Now our current is numbers of i"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 281.7,
+            "end": 284.7,
+            "text": " Let's write it as curr"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 284.7,
+            "end": 291.7,
+            "text": " So in first bar, current will be 2, then 4, 6, 8, 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 291.7,
+            "end": 294.7,
+            "text": " Now for every current, it will have an inner loop"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 294.7,
+            "end": 297.7,
+            "text": " j is equal to i plus 1, this loop will start"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 297.7,
+            "end": 301.7,
+            "text": " j is less than numbers dot length, this loop will go"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 302.7,
+            "end": 310.7,
+            "text": " Many students who are learning first time array will write i plus plus in nested loop"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 310.7,
+            "end": 313.7,
+            "text": " Because of which there will be an error in their code"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 313.7,
+            "end": 317.7,
+            "text": " This is a very common mistake that beginners do"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 317.7,
+            "end": 320.7,
+            "text": " Then they don't understand why there is an error in our code"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 320.7,
+            "end": 322.7,
+            "text": " We wrote it correctly, so why is the output not coming"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 322.7,
+            "end": 328.7,
+            "text": " So I am telling you that in every variable loop, there is an updation in j"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 328.7,
+            "end": 331.7,
+            "text": " So we have to write j plus plus, not i plus plus"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 331.7,
+            "end": 334.7,
+            "text": " Now what we will do to print pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 334.7,
+            "end": 337.7,
+            "text": " System.out.print"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 337.7,
+            "end": 340.7,
+            "text": " First we will print first pair"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 340.7,
+            "end": 343.7,
+            "text": " So let's put a parenthesis here"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 343.7,
+            "end": 347.7,
+            "text": " In first pair, the first number is current"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 347.7,
+            "end": 352.7,
+            "text": " Second number is comma"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 353.7,
+            "end": 357.7,
+            "text": " Second number is numbers of j"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 357.7,
+            "end": 361.7,
+            "text": " Means we have to make pair of current 2 with 4"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 361.7,
+            "end": 364.7,
+            "text": " Then we have to make pair of 2 with 6"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 364.7,
+            "end": 367.7,
+            "text": " Then we have to make pair of 2 with 8"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 367.7,
+            "end": 369.7,
+            "text": " Then we have to make pair of 2 with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 369.7,
+            "end": 373.7,
+            "text": " In this way, current will remain same but number will keep changing"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 373.7,
+            "end": 375.7,
+            "text": " In this inner loop"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 375.7,
+            "end": 379.7,
+            "text": " So let's put a closing parenthesis here"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 379.7,
+            "end": 383.7,
+            "text": " And print next line after every pair"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 383.7,
+            "end": 387.7,
+            "text": " So all pairs of 2 will be printed, then next line"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 387.7,
+            "end": 390.7,
+            "text": " Then all pairs of 4 will be printed, then next line"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 390.7,
+            "end": 392.7,
+            "text": " Then pairs of 6 will be printed, then next line"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 392.7,
+            "end": 394.7,
+            "text": " Then pairs of 8 will be printed, then next line"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 394.7,
+            "end": 396.7,
+            "text": " This is how the system will be"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 396.7,
+            "end": 398.7,
+            "text": " This is our print pairs function"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 398.7,
+            "end": 402.7,
+            "text": " Function will look very small, lines will look very less"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 402.7,
+            "end": 408.7,
+            "text": " There is a lot of logic, but we have printed pairs beautifully in less lines"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 408.7,
+            "end": 411.7,
+            "text": " Now let's call this function"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 411.7,
+            "end": 415.7,
+            "text": " We have passed our numbers array in print pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 415.7,
+            "end": 418.7,
+            "text": " Let's save this and run the code"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 418.7,
+            "end": 420.7,
+            "text": " Now our pairs are printed"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 420.7,
+            "end": 422.7,
+            "text": " Let's see how they are printed"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 422.7,
+            "end": 425.7,
+            "text": " First of all, pairs of number 2 are printed in first line"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 425.7,
+            "end": 428.7,
+            "text": " So what happened here, 2 is stored in current"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 428.7,
+            "end": 432.7,
+            "text": " After that, this loop will run from 4 to 10 for 2"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 433.7,
+            "end": 438.7,
+            "text": " First pair was made with 4, then with 6, then with 8, then with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 438.7,
+            "end": 441.7,
+            "text": " After that, 4 became current"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 441.7,
+            "end": 443.7,
+            "text": " For 4, this loop was run"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 443.7,
+            "end": 446.7,
+            "text": " 4 with 6, 4 with 8, 4 with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 446.7,
+            "end": 449.7,
+            "text": " Then loop was run for 6, 6 became current"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 449.7,
+            "end": 452.7,
+            "text": " Then in inner loop of 6, we went from 8 to 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 452.7,
+            "end": 455.7,
+            "text": " 6 pair was up with 8, 6 pair was up with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 455.7,
+            "end": 457.7,
+            "text": " Then 8 became current, loop was run for 8"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 457.7,
+            "end": 460.7,
+            "text": " So 8 pair was made with 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 460.7,
+            "end": 463.7,
+            "text": " So in this way, we have all these pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 463.7,
+            "end": 466.7,
+            "text": " Now we can also get total number of pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 466.7,
+            "end": 470.7,
+            "text": " Let's take a variable int totalPairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 470.7,
+            "end": 472.7,
+            "text": " Let's keep this 0 in the beginning"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 472.7,
+            "end": 476.7,
+            "text": " Now what we will do every time, as soon as we have printed a new pair"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 476.7,
+            "end": 478.7,
+            "text": " We will make tp++"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 478.7,
+            "end": 480.7,
+            "text": " We made tp++"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 480.7,
+            "end": 484.7,
+            "text": " In the end, we will print total pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 485.7,
+            "end": 489.7,
+            "text": " Total pairs is equal to tp"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 489.7,
+            "end": 493.7,
+            "text": " Let's run our code once again"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 493.7,
+            "end": 496.7,
+            "text": " Total pairs are 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 496.7,
+            "end": 501.7,
+            "text": " 4 plus 3 is 7, plus 2 is 9, plus 1 is 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 501.7,
+            "end": 507.7,
+            "text": " In fact, you will notice that every time the pairs are less than 1"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 507.7,
+            "end": 510.7,
+            "text": " So there is a formula to get total number of pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 510.7,
+            "end": 513.7,
+            "text": " If n elements are there in an array"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 513.7,
+            "end": 517.7,
+            "text": " Then the formula to get total pairs is tp"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 517.7,
+            "end": 520.7,
+            "text": " n into n minus 1 by 2"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 520.7,
+            "end": 525.7,
+            "text": " If there are 5 elements, then their formula will be 5 into 4 by 2 is equal to 10"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 525.7,
+            "end": 527.7,
+            "text": " Where did this logic come from?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 527.7,
+            "end": 530.7,
+            "text": " Because there are 5 elements, then first 4 pairs will be made"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 530.7,
+            "end": 532.7,
+            "text": " Then 3 pairs will be made"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 532.7,
+            "end": 535.7,
+            "text": " So in this way, 1 plus 2 plus 3 plus 4"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 535.7,
+            "end": 537.7,
+            "text": " This is the sum of n numbers"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 537.7,
+            "end": 539.7,
+            "text": " Sorry, sum of n minus 1 numbers"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 539.7,
+            "end": 541.7,
+            "text": " What is sum of n minus 1 numbers?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 541.7,
+            "end": 543.7,
+            "text": " n into n minus 1 by 2"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 543.7,
+            "end": 547.7,
+            "text": " So this simple formula of arithmetic progression of AP"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 547.7,
+            "end": 549.7,
+            "text": " Sum of AP"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 549.7,
+            "end": 552.7,
+            "text": " Which we have learnt in 10th and 11th class"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 552.7,
+            "end": 557.7,
+            "text": " We use this formula to get total number of pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 557.7,
+            "end": 561.7,
+            "text": " Now it is possible that you are not asked the question of printing pairs in the interview"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 561.7,
+            "end": 564.7,
+            "text": " But you can ask the question of total number of pairs"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 564.7,
+            "end": 565.7,
+            "text": " So this is important"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 565.7,
+            "end": 567.7,
+            "text": " How did the total number of pairs come out?"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 567.7,
+            "end": 568.7,
+            "text": " This part is important"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 568.7,
+            "end": 571.7,
+            "text": " Because this part can be coded by you"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 571.7,
+            "end": 577.7,
+            "text": " This part can be calculated by the interviewer"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 577.7,
+            "end": 579.7,
+            "text": " So we should know in this situation"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 579.7,
+            "end": 582.7,
+            "text": " If we talk about the time complexity of this code"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 582.7,
+            "end": 585.7,
+            "text": " Then the time complexity of this code will come out to us"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 585.7,
+            "end": 587.7,
+            "text": " n square"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 587.7,
+            "end": 589.7,
+            "text": " Because nested loop is used here"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 589.7,
+            "end": 593.7,
+            "text": " Outer loop will run n times in worst case"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 593.7,
+            "end": 597.7,
+            "text": " Inner loop will not run n times in worst case"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 597.7,
+            "end": 600.7,
+            "text": " But the time will be calculated like this"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 600.7,
+            "end": 605.7,
+            "text": " n plus n minus 1 plus n minus 2 plus n minus 3"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 605.7,
+            "end": 609.7,
+            "text": " Till 1, we have to put sum of AP"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 609.7,
+            "end": 612.7,
+            "text": " Which will be directly proportional to n square"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 612.7,
+            "end": 615.7,
+            "text": " Students will not understand this part"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 615.7,
+            "end": 618.7,
+            "text": " If you don't understand, you can skip it"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 618.7,
+            "end": 619.7,
+            "text": " There is no problem"
+        },
+        {
+            "number": "13.11",
+            "title": "",
+            "start": 619.7,
+            "end": 621.7,
+            "text": " Those who understand, it is a good thing"
+        }
+    ],
+    "text": " Next we will talk about pairs in an array So the name of this question is pairs in an array That means we have to find all possible pairs of all the elements stored in our array Pairs means when two people are joined together, we call it pair So if we join any number with any number, then it will be a pair So we have to find all possible pairs Let's see how to find all possible pairs Now the logical way is this, first of all we will discuss the logical way First of all, let's find all possible pairs of 2 2 should not pair with 2, it should pair up with other numbers So if we pair 2 with 4, then it becomes a pair of 2 and 4 If we pair 2 with 6, then it becomes a pair of 2 and 6 If we pair 2 with 8, then it becomes a pair of 2 and 8 And if we pair 2 with 10, then it becomes a pair of 2 and 10 So these are our 4 pairs here After that, let's find all possible pairs of 4 In pairs of 4, first of all, its pair is already formed with 2 That is 2, 4 and 4, 2 These two are same Whether you pair 2 with 4 or 4 with 2, it is same We don't have to differentiate in this So 4 pairs are already formed with 2, that is, it is formed with the left pair On the right, 4 pairs are formed with 6 4 pairs are formed with 8 And 4 pairs are formed with 10 Now if we have to make pairs of 6, then how will 6 pairs be formed? 6 pairs are formed with 2, that is, this and 6 pairs are formed with 4 That is, this is already formed Now if we have to make pairs of 6 with 8, then this is formed If we have to make pairs of 6 with 10, then this is formed In the end, the last pair will be 8 8 pairs were formed with 10, and 8 pairs were formed with 10 So here 3 pairs were formed, 2 pairs were formed here, and 1 pair was formed here So how can we make all possible pairs in this way? The number we are on, let's say we have to make pairs of 2 So all the numbers before that, Do them one by one and get them joined together and print that pair The concept we will use here is nested loops Nested loop means loop inside the loop What is the logic? First of all, we run the loop for all the elements of the array So the first turn came in the loop of 2 We joined 2 with 4, 2 joined with 6, 2 joined with 8, and 2 joined with 10 Then the turn came in the loop of 4 We ran another loop for 4 4 joined with 6, 4 joined with 8, and 4 joined with 10 Then the turn came again for 6 We joined 6 with 8, and then 6 joined with 10 So in this way, we will use nested loops inside the loop What will we write in the outer loop? We will write the elements of the array in the outer loop How will the code look? The code will look something like this For int i equals 0 to n For the current number, we will run another loop For int j equals current, we will name it i plus 1 to n And here we will print all the pairs What is the logic behind this? First of all, the turn will come for 2 For 2, whose turn will come? 4, 6, 8, 10 Which index will start after 2? If the index of 2 is i, then which index will start from i plus 1? After that, we will do for 4 For 4, the turn will come for 6, 8, and 10 For 6, the turn will come for 8 and 10 Similarly, the turn will come for 8 only And no turn will come for 10 Because as soon as 10 comes after 8, i equals n minus 1 for 10 So the loop from n to n will not work here So no pair will be printed with 10 Later, all the pairs of 10 will be printed So the logic of nested loop will be to print pairs For this, let's understand it by writing code First of all, let's write a function to print pairs If we do all the work in the function, then modularity is formed in the code If you know that you have to do this work, then see this function If you want to do this work, then see this function It feels good to see the code Let's make it void type and name it printPairs It will print pairs We will get an array named numbers in this We will pass this array from main function First of all, we will do a loop For int i equals 0, i plus plus will not become numbers dot length Now our current is numbers of i Let's write it as curr So in first bar, current will be 2, then 4, 6, 8, 10 Now for every current, it will have an inner loop j is equal to i plus 1, this loop will start j is less than numbers dot length, this loop will go Many students who are learning first time array will write i plus plus in nested loop Because of which there will be an error in their code This is a very common mistake that beginners do Then they don't understand why there is an error in our code We wrote it correctly, so why is the output not coming So I am telling you that in every variable loop, there is an updation in j So we have to write j plus plus, not i plus plus Now what we will do to print pairs System.out.print First we will print first pair So let's put a parenthesis here In first pair, the first number is current Second number is comma Second number is numbers of j Means we have to make pair of current 2 with 4 Then we have to make pair of 2 with 6 Then we have to make pair of 2 with 8 Then we have to make pair of 2 with 10 In this way, current will remain same but number will keep changing In this inner loop So let's put a closing parenthesis here And print next line after every pair So all pairs of 2 will be printed, then next line Then all pairs of 4 will be printed, then next line Then pairs of 6 will be printed, then next line Then pairs of 8 will be printed, then next line This is how the system will be This is our print pairs function Function will look very small, lines will look very less There is a lot of logic, but we have printed pairs beautifully in less lines Now let's call this function We have passed our numbers array in print pairs Let's save this and run the code Now our pairs are printed Let's see how they are printed First of all, pairs of number 2 are printed in first line So what happened here, 2 is stored in current After that, this loop will run from 4 to 10 for 2 First pair was made with 4, then with 6, then with 8, then with 10 After that, 4 became current For 4, this loop was run 4 with 6, 4 with 8, 4 with 10 Then loop was run for 6, 6 became current Then in inner loop of 6, we went from 8 to 10 6 pair was up with 8, 6 pair was up with 10 Then 8 became current, loop was run for 8 So 8 pair was made with 10 So in this way, we have all these pairs Now we can also get total number of pairs Let's take a variable int totalPairs Let's keep this 0 in the beginning Now what we will do every time, as soon as we have printed a new pair We will make tp++ We made tp++ In the end, we will print total pairs Total pairs is equal to tp Let's run our code once again Total pairs are 10 4 plus 3 is 7, plus 2 is 9, plus 1 is 10 In fact, you will notice that every time the pairs are less than 1 So there is a formula to get total number of pairs If n elements are there in an array Then the formula to get total pairs is tp n into n minus 1 by 2 If there are 5 elements, then their formula will be 5 into 4 by 2 is equal to 10 Where did this logic come from? Because there are 5 elements, then first 4 pairs will be made Then 3 pairs will be made So in this way, 1 plus 2 plus 3 plus 4 This is the sum of n numbers Sorry, sum of n minus 1 numbers What is sum of n minus 1 numbers? n into n minus 1 by 2 So this simple formula of arithmetic progression of AP Sum of AP Which we have learnt in 10th and 11th class We use this formula to get total number of pairs Now it is possible that you are not asked the question of printing pairs in the interview But you can ask the question of total number of pairs So this is important How did the total number of pairs come out? This part is important Because this part can be coded by you This part can be calculated by the interviewer So we should know in this situation If we talk about the time complexity of this code Then the time complexity of this code will come out to us n square Because nested loop is used here Outer loop will run n times in worst case Inner loop will not run n times in worst case But the time will be calculated like this n plus n minus 1 plus n minus 2 plus n minus 3 Till 1, we have to put sum of AP Which will be directly proportional to n square Students will not understand this part If you don't understand, you can skip it There is no problem Those who understand, it is a good thing"
+}

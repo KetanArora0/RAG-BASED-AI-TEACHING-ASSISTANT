@@ -1,0 +1,9 @@
+It looks like you're watching a video about arrays in your Data Structure and Algorithms course.
+
+To answer your question, "what is array", we can find the relevant content in Video 13.1 of your course materials.
+
+The formal definition of an array is introduced at the beginning of this video (at timestamp 72.08 seconds). An array is a list of elements of the same type. This concept is further explained at timestamp 151.12 seconds, and a detailed explanation of what it means to store the same type of elements in an array can be found from 162.52 seconds onwards.
+
+If you want to understand more about arrays and how they work, I would recommend watching Video 13.1 again, starting from these timestamps: 72.08 seconds for the introduction to the formal definition, 151.12 seconds for the explanation of storing the same type of elements, and 162.52 seconds for a detailed breakdown.
+
+Is there anything else you'd like to know about arrays?
