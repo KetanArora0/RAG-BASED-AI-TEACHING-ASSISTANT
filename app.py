@@ -2,24 +2,23 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-import requests
 import re
 from sklearn.metrics.pairwise import cosine_similarity
+from sentence_transformers import SentenceTransformer
 from groq import Groq
 import os
 
 # Load embeddings
 df = joblib.load("embeddings.joblib")
 
+# Load embedding model
+embedding_model = SentenceTransformer("BAAI/bge-large-en-v1.5")
+
 # Groq client
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 def create_embedding(text_list):
-    r = requests.post("http://localhost:11434/api/embed", json={
-        "model": "bge-m3",
-        "input": text_list
-    })
-    return r.json()["embeddings"]
+    return [embedding_model.encode(text).tolist() for text in text_list]
 
 def get_answer(query):
     # Step 1: Embedding
@@ -121,7 +120,7 @@ if st.button("Submit"):
                 answer = get_answer(query)
 
                 st.subheader("Answer:")
-                
+
                 for block in answer.strip().split("\n\n"):
                     block = block.strip()
                     if not block:

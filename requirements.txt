@@ -2,6 +2,6 @@ streamlit
 pandas
 numpy
 joblib
-requests
 scikit-learn
 groq
+sentence-transformers
