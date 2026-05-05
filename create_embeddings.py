@@ -8,7 +8,7 @@ print("Removing old embeddings...")
 df = df.drop(columns=["embedding"])
 
 print("Loading model... (first time download hoga ~1.3GB)")
-model = SentenceTransformer("BAAI/bge-large-en-v1.5")
+model = SentenceTransformer("BAAI/bge-small-en-v1.5")
 
 print("Creating new embeddings...")
 df["embedding"] = df["text"].apply(lambda x: model.encode(x).tolist())

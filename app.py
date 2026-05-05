@@ -12,7 +12,7 @@ import os
 df = joblib.load("embeddings.joblib")
 
 # Load embedding model
-embedding_model = SentenceTransformer("BAAI/bge-large-en-v1.5")
+embedding_model = SentenceTransformer("BAAI/bge-small-en-v1.5")
 
 # Groq client
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
