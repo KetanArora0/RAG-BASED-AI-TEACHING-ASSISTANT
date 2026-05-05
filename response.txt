@@ -1,7 +1,0 @@
-Video 13.10:
-0.0-22.96 - The concept of reversing an array is introduced, explaining that the goal is to rearrange the elements in the opposite order. 
-136.16-150.08 - A technique to reverse an array is described, involving swapping the first and last indices and moving towards the center. 
-271.44-285.2 - The idea of writing code to reverse an array is presented, including defining a function to perform the reversal. 
-285.2-295.92 - The function to reverse the array is further explained, noting that the array is passed by reference to reverse it in the original. 
-438.16-449.04 - The process of reversing the array using a function is discussed, with indices moving forward and backward to swap elements. 
-449.04-468.08 - The main function is mentioned, where the reversal function is called and the resulting array is printed.
