@@ -1,21 +1,15 @@
-# Large files
 embeddings.joblib
 audios/
 videos/
-*.mp3
-*.mp4
-
-# Secret keys
-config.py
-
-# Python cache
-__pycache__/
-*.pyc
-
-# VS Code
-.vscode/
-
-# Unused files
-unused/
 jsons/
 newjsons/
+unused/
+__pycache__/
+*.pyc
+.vscode/
+config.py
+prompt.txt
+output.json
+response.txt
+*.mp3
+*.mp4
