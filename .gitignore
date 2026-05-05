@@ -1,2 +1,21 @@
+# Large files
+embeddings.joblib
+audios/
 videos/
+*.mp3
 *.mp4
+
+# Secret keys
+config.py
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Unused files
+unused/
+jsons/
+newjsons/

@@ -1,9 +1,7 @@
-It looks like you're watching a video about arrays in your Data Structure and Algorithms course.
-
-To answer your question, "what is array", we can find the relevant content in Video 13.1 of your course materials.
-
-The formal definition of an array is introduced at the beginning of this video (at timestamp 72.08 seconds). An array is a list of elements of the same type. This concept is further explained at timestamp 151.12 seconds, and a detailed explanation of what it means to store the same type of elements in an array can be found from 162.52 seconds onwards.
-
-If you want to understand more about arrays and how they work, I would recommend watching Video 13.1 again, starting from these timestamps: 72.08 seconds for the introduction to the formal definition, 151.12 seconds for the explanation of storing the same type of elements, and 162.52 seconds for a detailed breakdown.
-
-Is there anything else you'd like to know about arrays?
+Video 13.10:
+0.0-22.96 - The concept of reversing an array is introduced, explaining that the goal is to rearrange the elements in the opposite order. 
+136.16-150.08 - A technique to reverse an array is described, involving swapping the first and last indices and moving towards the center. 
+271.44-285.2 - The idea of writing code to reverse an array is presented, including defining a function to perform the reversal. 
+285.2-295.92 - The function to reverse the array is further explained, noting that the array is passed by reference to reverse it in the original. 
+438.16-449.04 - The process of reversing the array using a function is discussed, with indices moving forward and backward to swap elements. 
+449.04-468.08 - The main function is mentioned, where the reversal function is called and the resulting array is printed.
